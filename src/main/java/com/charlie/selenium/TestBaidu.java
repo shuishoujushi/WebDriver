@@ -25,7 +25,7 @@ public class TestBaidu {
         WebElement element = driver.findElement(By.id("kw"));
 
         // Enter something to search for
-        element.sendKeys("fuck");
+        element.sendKeys("love");
 
         // Now submit the form. WebDriver will find the form for us from the element
         element.submit();
